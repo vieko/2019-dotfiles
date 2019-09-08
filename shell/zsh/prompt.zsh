@@ -43,8 +43,8 @@ prompt_init() {
   # Updates cursor shape and prompt symbol based on vim mode
   zle-keymap-select() {
     case $KEYMAP in
-      vicmd)      PROMPT_SYMBOL="%F{magenta}« " ;;
-      main|viins) PROMPT_SYMBOL="%(?.%F{green}.%F{red})λ " ;;
+      vicmd)      PROMPT_SYMBOL="%F{magenta}«  " ;;
+      main|viins) PROMPT_SYMBOL="%(?.%F{green}.%F{red})λ  " ;;
     esac
     zle reset-prompt
     zle -R

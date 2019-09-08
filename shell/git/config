@@ -1,14 +1,16 @@
 [user]
-	name = Henrik Lissner
-	email = henrik@lissner.net
+	name = Vieko Franetovic
+	email = vieko.franetovic@gmail.com
+	signingkey = F856FAF2C7295077
 
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	whitespace = trailing-space
+	editor = nvim
 [color]
 	ui = auto
 [github]
-	user = hlissner
+	user = vieko
 [rebase]
 	autosquash = true
 [push]
@@ -34,3 +36,5 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[commit]
+	gpgsign = true

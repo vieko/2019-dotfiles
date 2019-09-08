@@ -5,3 +5,5 @@ _init_path() {
     export PATH="$(printf '%s:' "${paths[@]}"):$PATH"
 }
 _init_path
+export PATH="$HOME/.phpenv/bin:$PATH"
+eval "$(phpenv init -)"
